@@ -17,7 +17,7 @@ var words = [
     ['Necklace', 'Notebook', 'Nail', 'Needle', 'Napkin', 'Net', 'Nest'],
     ['Oven', 'Organizer', 'Opener', 'Orange'],
     ['Pen', 'Pencil', 'Plate', 'Phone', 'Pillow', 'Piano', 'Printer', 'Picture', 'Purse'],
-    ['Quilt', 'Quill', 'Queue', 'Quarter', 'Quartz', 'Quadcopter'],
+    ['Quilt', 'Quill', 'Queue', 'Quarter', 'Quartz', 'Quackster'],
     ['Radio', 'Refrigerator', 'Remote', 'Rifle', 'Recorder', 'Razor', 'Rock'],
     ['Sofa', 'Spoon', 'Shoe', 'Sunglasses', 'Statue', 'Scissors', 'Suitcase', 'Skateboard', 'Speaker'],
     ['Table', 'Television', 'Telephone', 'Telescope', 'Towel', 'Toaster', 'Thermometer'],
@@ -26,13 +26,12 @@ var words = [
     ['Watch', 'Windmill', 'Wallet', 'Wrench'],
     ['X-ray', 'Xenon', 'Xbox'],
     ['Yogurt', 'Yurt', 'Yo-yo', 'Yardstick'],
-    ['Zebra', 'Zipper', 'Zester', 'Zigzag', 'Zucchini'],
+    ['Zebra', 'Zipper', 'Zoster', 'Zigzag', 'Zucchini'],
 ];
 
 
 
 document.addEventListener("keydown", function(event) {
-    // Call your function based on the pressed key
     getWord(event.key);
 });
 
